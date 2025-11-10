@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "train",
+    "slug": "train",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "Train App",
+      "shortName": "Train",
+      "lang": "en",
+      "scope": "/",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#007AFF",
+      "display": "standalone",
+      "orientation": "portrait",
+      "startUrl": "/",
+      "description": "A train management PWA built with React Native"
+    }
+  }
+}
